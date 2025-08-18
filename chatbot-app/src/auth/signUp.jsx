@@ -19,7 +19,7 @@ export default function Signup() {
       password,
       options: {
         displayName,
-        redirectTo: "/verify-email" 
+        redirectTo: "/chat" 
       }
     });
 
