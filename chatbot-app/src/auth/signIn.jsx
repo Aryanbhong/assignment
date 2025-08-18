@@ -17,7 +17,6 @@ export default function Signin() {
       navigate("/chat");
     }
   }, [isAuthenticated, navigate]);
-
   const handleSignin = async (e) => {
     e.preventDefault();
     setMessage("");
