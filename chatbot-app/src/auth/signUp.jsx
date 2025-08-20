@@ -147,7 +147,7 @@ export default function Signup() {
             <input
               type="text"
               id="displayName"
-              placeholder="e.g. John Doe"
+              placeholder=" Your Name"
               value={displayName}
               onChange={(e) => setDisplayName(e.target.value)}
               required
